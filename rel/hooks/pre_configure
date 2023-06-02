@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+PIPE_DIR=/var/lib/unified-chat-gateway/erl_pipes

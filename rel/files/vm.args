@@ -1,0 +1,24 @@
+## Name of the node
+-sname <%= release_name %>
+
+## Cookie for distributed erlang
+-setcookie pcp
+
+## Heartbeat management; auto-restarts VM if it dies or becomes unresponsive
+## (Disabled by default..use with caution!)
+-heart
+-env ERL_CRASH_DUMP_SECONDS -1
+-env HEART_NO_KILL 1
+
+## Don't rely on SMP auto discovery
+-smp enable
+
+## Enable kernel poll and a few async threads
++K true
++A 32
+
+## Increase number of concurrent ports/sockets
+##-env ERL_MAX_PORTS 4096
+
+## Tweak GC to run more often
+##-env ERL_FULLSWEEP_AFTER 10

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content={csrf_token_value()} />
+    <title>Premier Contact Point</title>
+    <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/assets/app.css")} />
+    <link phx-track-static rel="stylesheet" href={Path.join(["https://", @conn.host, "/static/fonts/eadui-fonts/eadui-fonts.min.css?v=1.1.7"])} />
+    <script
+      defer
+      phx-track-static
+      type="text/javascript"
+      src={Routes.static_path(@conn, "/assets/app.js")}
+    >
+    </script>
+  </head>
+  <body>
+    <div class="inner-content">
+      <%= @inner_content %>
+    </div>
+  </body>
+</html>

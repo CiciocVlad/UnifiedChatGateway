@@ -1,0 +1,43 @@
+{
+    "chatConfiguration": {
+        "header": {
+            "height": "60px",
+            "fill": "#5b8cc8",
+            "fontFamily": "'Lato', sans-serif",
+            "fontSize": "17px",
+            "align": {
+                "horizontal": "left"
+            },
+            "fontColour": "#fff",
+            "label": "Live Chat"
+        },
+        "transcript": {
+            "agentAvatar": "#333",
+            "agentFont": "#333",
+            "agentBubble": "#dde7f4",
+            "agentBorder": "#DDE7F4",
+            "visitorAvatar": "#333",
+            "visitorFont": "#333",
+            "visitorBubble": "#9fbcdf",
+            "visitorBorder": "#9fbcdf",
+            "systemAvatar": "#333",
+            "systemFont": "#333",
+            "systemBubble": "#fff",
+            "systemBorder": "#333",
+            "fill": "#fff"
+        },
+        "input": {
+            "fill": "#fff",
+            "fontColour": "#333",
+            "iconColour": "#a7a7a7"
+        },
+        "button": {
+            "iconColour": "#fff",
+            "fill": "#5b8cc8"
+        },
+        "permissions": {
+            "enableVisitorAttachUpload": true,
+            "displayFooter": true
+        }
+    }
+}
